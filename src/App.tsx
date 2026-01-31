@@ -35,7 +35,7 @@ import {
 } from "./components";
 
 export default function App() {
-  const [viewMode, setViewMode] = useState("daily");
+  const [viewMode, setViewMode] = useState("weekly"); // "daily" | "weekly"
   const [loading, setLoading] = useState(true);
 
   // Filters State
